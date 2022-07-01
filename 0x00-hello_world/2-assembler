@@ -1,2 +1,2 @@
 #!/bin/bash
-MOV $CFILE, $CFILE
+as -o $CFILE $CFILE 
