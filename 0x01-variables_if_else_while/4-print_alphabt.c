@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char x = 'a';
+	char x;
 
-	if (x <= 'z' && (x != 'q' && x != 'e'))
+	for (x = 'a'; x <= 'z' && (x != 'q' && x != 'e'); x++)
 	{
 		putchar(x);
 	}
