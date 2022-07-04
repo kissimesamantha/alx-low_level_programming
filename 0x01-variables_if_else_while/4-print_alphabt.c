@@ -14,13 +14,12 @@ int main(void)
 
 		putchar(x);
 
-	}
+		if (x == 'e' && x = 'q')
+		{
+			return (0);
+		}
 
-	if (x == 'q' && x == 'e')
-	{
-		return (0);
 	}
-
 	putchar('\n');
 
 	return (0);
