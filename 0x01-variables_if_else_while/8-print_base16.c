@@ -5,7 +5,7 @@
  * main - prints all the numbers of base 16 in lowercase
  * Return: always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	int x;
 
@@ -16,7 +16,7 @@ int main (void)
 		putchar((x % 10) + 'x');
 
 	}
-	for (n ='a'; n <= 'f'; n++)
+	for (n = 'a'; n <= 'f'; n++)
 		putchar(n);
 
 	putchar('\n');
