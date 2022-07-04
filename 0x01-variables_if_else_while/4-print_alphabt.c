@@ -7,15 +7,20 @@
  */
 int main(void)
 {
-	char x = 'a';
+	char x;
 
-	while (x <= 'z'  && (x != 'q' && x != 'e')
+	for (x = 'a'; x <= 'z'; x++)
 	{
 
 		putchar(x);
 
-		x++;
 	}
+
+	if (x == 'q' && x == 'e')
+	{
+		return (0);
+	}
+
 	putchar('\n');
 
 	return (0);
