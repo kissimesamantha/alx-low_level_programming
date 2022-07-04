@@ -1,20 +1,24 @@
 #include <stdio.h>
+#include <stlib.h>
+
 
 /**
  * main - prints all number of base 10 starting from 0
  * don't use variable of type char
- * return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int x = 0;
+	int x;
 
-	while (x <= 9)
-	{
-	 putchar(x);
+for (x = '0'; x < '10'; x++)
 
-	 x++;
-	}
+{
+putchar((n % 10) + '0');
+
+putchar('\n');
+
+}
 
 	return (0);
 }
