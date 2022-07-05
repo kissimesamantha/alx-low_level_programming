@@ -2,9 +2,9 @@
 /**
  * _islower - functions that checks for lowercase characters
  *
- * Return: 1 if "c" islowercase 0 otherwise
+ * Return: 1 if "c" is lowercase 0 otherwise
  */
-
+/*function check if c is a lowercase */
 int _islower(int c)
 {
 
