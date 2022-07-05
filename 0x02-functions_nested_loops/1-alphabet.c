@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * print_alphabet - prints the alphabet in lowercase
+ *
+ * Return: nothing
+ */
+void print_alphabet(void)
+{
+	char x = 'a';
+
+	while (x <= 'z')
+	{
+		_putchar(x);
+
+	}
+
+	return (0);
+
+}
+
