@@ -13,9 +13,7 @@ for (x = 'a'; x <= 'z'; x++)
 
 	if (x != 'q' && x != 'e')
 
-		continue;
-
-	putchar(x);
+		putchar(x);
 }
 
 	putchar('\n');
