@@ -4,7 +4,7 @@
 *print_last_digit - print the last digit of a number
 *
 *@n: integer entered
-*Return: Always 0 (success)
+*Return: Always x (success)
 */
 int print_last_digit(int n)
 {
@@ -19,6 +19,6 @@ int print_last_digit(int n)
 	else
 		_putchar(0);
 
-	return (0);
+	return (x);
 
 }
