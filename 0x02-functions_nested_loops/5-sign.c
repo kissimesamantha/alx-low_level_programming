@@ -5,7 +5,7 @@
  *
  * Return: 1 if is positive, 0 if is zero and -1 if is negative
  *
- * @c: n is a number
+ * @n: n is a number
  */
 int print_sign(int n)
 {
