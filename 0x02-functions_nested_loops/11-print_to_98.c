@@ -31,9 +31,9 @@ void print_to_98(int n)
 			{
 				_putchar(',');
 			}
-			else
+			else if (n == 98)
 			{
-				_putchar(98 + '0');
+				_putchar(n + '0');
 			}
 			n--;
 		}
