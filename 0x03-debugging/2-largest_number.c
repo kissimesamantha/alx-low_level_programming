@@ -12,9 +12,9 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	printf("972, -98, 0\n");
-	scanf("%a %b %c", &a, &b, &c);
-	printf("a = %d\tb = %d\tc = %d\n", a, b, c);
+	a = 972;
+	b = -98;
+	c = 0;
 
 	if (a >= b && a >= c && b >= c)
 	{
