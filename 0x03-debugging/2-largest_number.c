@@ -28,5 +28,5 @@ int largest_number(int a, int b, int c)
 		printf("%d is a largest number\n", c);
 	}
 
-	return (0);
+	return (largest);
 }
