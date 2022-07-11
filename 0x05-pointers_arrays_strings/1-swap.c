@@ -13,8 +13,8 @@ void swap_int(int *a, int *b)
 {
 	int x, y, z;
 
-	x = 1024;
-	y = -4096;
+	x = *a;
+	y = *b;
 
 	z = x;
 	x = y;
