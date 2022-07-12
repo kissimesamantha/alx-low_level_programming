@@ -6,7 +6,7 @@
  * @dest: pointer to the destination array where the content is to be copied
  * @*dest: pointer variable of dest
  * @*src: pointer variable of  src
- * return: dest
+ * Return:a pointer contain dest in a variable 'n'
  */
 char *_strcpy(char *dest, char *src)
 {
