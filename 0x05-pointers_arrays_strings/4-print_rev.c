@@ -28,5 +28,5 @@ void print_rev(char *s)
 		d++;
 		f--;
 	}
-
+	_putchar('s');
 }
