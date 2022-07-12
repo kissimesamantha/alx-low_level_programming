@@ -2,7 +2,8 @@
 
 /**                                                               
  *print_rev - function that prints a string, in reverse
- *@*s:pointer variable of string                                                 *@s: address of a string variable
+ *@*s:pointer variable of string
+ *@s: address of a string variable
  *return: nothing
  */
 
