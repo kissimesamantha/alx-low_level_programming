@@ -15,6 +15,16 @@ void print_array(int *a, int n)
 	for (i = 0; i < n; i++)
 	{
 		_putchar(a[i]);
+
+		if (a[i] < 0)
+		{
+			_putchar(a[i]);
+		}
+		else if (a[i] > 0)
+		{
+			_putchar(a[i]);
+		}
+
 	}
 
 	_putchar('\n');
