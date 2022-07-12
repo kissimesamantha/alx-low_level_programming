@@ -9,7 +9,9 @@
 
 void _puts(char *str)
 {
-	char x = *str;
+	char x;
+
+	x = *str;
 
 	_putchar('x');
 }
