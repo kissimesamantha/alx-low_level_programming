@@ -14,9 +14,9 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		_putchar((a[i]) + 'o');
+		_putchar((a[i]) + '0');
 	if (a[i] < 0)
-		_putchar((-a[i]) + 'o');
+		_putchar((-a[i]) + '0');
 	}
 
 	_putchar('\n');
