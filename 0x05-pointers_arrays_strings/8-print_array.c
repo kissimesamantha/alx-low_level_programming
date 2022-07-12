@@ -16,14 +16,14 @@ void print_array(int *a, int n)
 	{
 		_putchar(a[i]);
 
-		if (a[i] < 0)
+		/*if (a[i] < 0)
 		{
 			_putchar(a[i]);
 		}
 		else if (a[i] > 0)
 		{
 			_putchar(a[i]);
-		}
+		}*/
 
 	}
 
