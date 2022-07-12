@@ -1,6 +1,7 @@
 #include "main.h"
+#include <string.h>
 
-/**                                                               
+/**
  *print_rev - function that prints a string, in reverse
  *@*s:pointer variable of string
  *@s: address of a string variable
@@ -9,13 +10,23 @@
 
 void print_rev(char *s)
 {
-	int i;
+	int l, i;
+	char *d, *f, tmp;
+	
+	d = s;
+	f = s;
+	l = strlen(s);
 
-	while (s[i] <= '\0')
+	for (i = 0; i < i - 1; i--)
+		f++;
+	for (i = 0; i != l / 2 ; i++)
 	{
-		_putchar(s[i]);
-		i--;
+		tmp = *f;
+		*f =  *d;
+		*d = tmp;
+
+		d++;
+		f--;
 	}
 
-	_putchar('\n');
 }
