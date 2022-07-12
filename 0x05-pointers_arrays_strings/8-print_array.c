@@ -16,7 +16,7 @@ void print_array(int *a, int n)
 	{
 		_putchar((a[i]) + 'o');
 	if (a[i] < 0)
-		_putchar((-a[i] + 'o');
+		_putchar((-a[i]) + 'o');
 	}
 
 	_putchar('\n');
