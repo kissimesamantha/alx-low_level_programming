@@ -9,7 +9,7 @@
 
 void print_rev(char *s)
 {
-	int l1, l2,  i;
+	int l1, l2, i;
 	char  tmp;
 
 	l1 = 0;
@@ -24,5 +24,5 @@ void print_rev(char *s)
 		s[l2] = tmp;
 		l2 -= 1;
 	}
-
+	_putchar(s[i]);
 }
