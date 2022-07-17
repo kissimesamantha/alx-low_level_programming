@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - entry point
- *
  * Return: nothing
  */
-
 int main(void)
 {
 	int p = 100;
@@ -28,7 +25,6 @@ int main(void)
 			else
 			printf("Buzz");
 		}
-
 		else
 		{
 			printf("%i ", i);
@@ -37,6 +33,6 @@ int main(void)
 		i++;
 	}
 
-	printf('\n');
+	printf("\n");
 	return (0);
 }
