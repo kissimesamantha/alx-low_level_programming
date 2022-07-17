@@ -8,24 +8,27 @@
 
 void print_triangle(int size)
 {
-	int a, b, c;
+	int a = 1, b;
 
-	if (size > 0)
+	while (a <= size && size > 0)
 	{
-		for (a = 0; a < size; a++)
+		b = 0;
+		while (b < size - 1)
 		{
-			for (b = 0; b < size; b++)
-			{
-				for (c = 0; c < size; c++)
-				{
-					_putchar(35);
-				}
-				_putchar('\n');
-			}
+		_putchar(' ');
+		b++;
 		}
-	}
-	else
-	{
+		b = 0;
+		while (b < a)
+		{
+		_putchar(35);
+		b++;
+		}
 		_putchar('\n');
+		a++;
 	}
+	if (a == 1)
+
+		_putchar('\n');
+
 }
