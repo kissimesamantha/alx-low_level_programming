@@ -3,15 +3,14 @@
 /**
  * main - entry point
  *
- * return: void
+ * Return: nothing
  */
 
-int main (void)
+int main(void)
 {
 	int p = 100;
-	int i;
-	
-	i = 1;
+	int i = 1;
+
 	while (i <= p)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
@@ -26,8 +25,7 @@ int main (void)
 		{
 			if (i < p)
 			printf("Buzz ");
-
-			else 
+			else
 			printf("Buzz");
 		}
 
@@ -37,10 +35,8 @@ int main (void)
 		}
 
 		i++;
-
 	}
 
 	printf('\n');
 	return (0);
 }
-	
