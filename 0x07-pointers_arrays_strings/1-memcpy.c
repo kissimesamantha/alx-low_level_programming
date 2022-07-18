@@ -2,10 +2,10 @@
 
 /**
  *_memcpy - function that copy memory area
- *@src:pointer variable of source
- *@dest:pointer variable of destination
- *@n:number of bytes
- *Return: return a pointer to dest
+ *@src:pointer variable of source memory
+ *@dest:pointer variable of destination memory
+ *@n:number of bytes to be copied
+ *Return: return string copied from source
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
