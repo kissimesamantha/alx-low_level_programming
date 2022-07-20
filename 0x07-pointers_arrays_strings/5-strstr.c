@@ -9,21 +9,21 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	char *s1, *s2;
+	char *str1, *str2;
 
 	while (*haystack != '\0')
 	{
-		s1 = haystack;
-		s2 = needle;
-		while (*haystack != '\0' && *s2 != '\0' && *haystack == *s2)
+		str1 = haystack;
+		str2 = needle;
+		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 		{
 			haystack++;
-			s2++;
+			str2++;
 		}
-		if (*s2 == '\0')
+		if (*str2 == '\0')
 		{
-			return (s1);
-		haystack = s1 + 1;
+			return (str1);
+		haystack = str1 + 1;
 		}
 	}
 	return (0);
