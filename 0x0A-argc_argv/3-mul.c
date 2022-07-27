@@ -4,10 +4,12 @@
 /**
  * main - program that multiplies two numbers
  * it print the result of the multiplication,followed by a new line
- * the two numbers and result of the multiplication 
+ * the two numbers and result of the multiplication
  * can be stored in an integer program should print Error,
  * followed by a new line if it does'nt receive two
  * arguments
+ * @argc:argument count
+ * @argv: argument vector
  * Return: always 0 (success) otherwise 1
  */
 
