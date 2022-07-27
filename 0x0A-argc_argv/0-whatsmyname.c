@@ -5,7 +5,7 @@
  *if you rename the program it will print the new name
  *without having to compile it again
  *you should not remove the path before the name of program
- *@argc: this is the argument count 
+ *@argc: this is the argument coun
  *@argv: this is the argument vector
  *Return: return  0
  */
