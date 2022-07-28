@@ -10,7 +10,7 @@
  * numbers and the addition of all the numbers can be stored in an int
  * @argc: argument additional number
  * @argv: argument vector
- * Return : always 0(success) 1 otherwise
+ * Return: always 0(success) 1 otherwise
  */
 
 int main(int argc, char *argv[])
@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	for (i =1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		sum += atoi(argv[i]);
 	}
