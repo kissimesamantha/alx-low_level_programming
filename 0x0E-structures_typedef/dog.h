@@ -1,8 +1,10 @@
-#include <stdio.h>
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
-struct dog
+typedef struct
 {
 	char *name;
 	float age;
 	char *owner;
-}
+} dog;
+#endif
