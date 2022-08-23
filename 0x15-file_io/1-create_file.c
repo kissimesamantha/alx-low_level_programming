@@ -11,7 +11,7 @@
 int create_file(const char *filename, char *text_content)
 {
 	int fd;
-	int nbletters;
+	int nletters;
 	int rwr;
 
 	if (filename)
@@ -25,10 +25,10 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 
-	for (nbletters = 0; text_content[nbletters]; nbletters++)
+	for (nletters = 0; text_content[nletters]; nletters++)
 		;
 
-	rwr = write(fd, text_content, nbletters);
+	rwr = write(fd, text_content, nletters);
 
 	if (rwr == -1)
 		return (-1);
